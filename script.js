@@ -1,9 +1,9 @@
 // KineticAI Virtual Sports Coach Logic with Custom Video/Folder Dynamic Analysis
 
 // Optional Supabase Configuration (Uncomment and fill in your credentials when ready)
-// const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-// const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
-// const supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+ const SUPABASE_URL = 'https://agehztgrcyagjwffienn.supabase.co';
+ const SUPABASE_ANON_KEY = 'sb_publishable_rjr2kNvsBtKhpHFKvbFILw_lbH1LIfZ';
+ const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
 const sportsData = {
     basketball: {
